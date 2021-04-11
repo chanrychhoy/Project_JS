@@ -1,0 +1,106 @@
+body{
+    font-family: sans-serif;
+}
+.fullForm{
+    background:rgb(247, 209, 215);
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:550px;
+    box-shadow: 4px 4px 4px rgb(151, 146, 146);
+}
+header{
+    text-align: center;
+}
+form{
+    padding:20px;    
+}
+
+/* --------------style input form------------- */
+
+.container{
+    padding:20px;
+    background:rgb(197, 196, 196);
+    text-align: center;
+    display: none;
+}
+input[type=text],
+input[type=date]{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:5px;
+    width:200px;    
+}
+input[type=radio]{
+    margin-left: 67px; 
+}
+#place{
+    margin-left: 27px;
+}
+#fristDate,
+#lastDate{
+    margin-left: 10px;
+}
+#price{
+    margin-left:15px;
+}
+#createId,
+#closeId{
+    width:510px;
+    padding:10px;
+    margin-bottom: 5px;
+}
+#closeId{
+    display:none;
+}
+
+/* ----------style button add ------ */
+
+button{
+    width:285px;
+    padding:5px;
+}
+
+/* --------------style name place form------------- */
+
+.add-card{
+    padding:20px;
+    background:rgb(197, 196, 196);
+}
+.card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.delete {
+    margin-right: 10px;
+    width: 20px;
+    height: 17px;
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* --------------style button search at local and abroad place------------ */
+#search-placeLocal,
+#search-placeAbroad{
+    text-align: center;
+}
+#local,
+#abroad{
+    width:450px;
+    padding:10px;
+}
+
+#search-placeAbroad p,
+#search-placeLocal p{
+   font-size: 20px;
+  
+}

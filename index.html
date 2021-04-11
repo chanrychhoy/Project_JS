@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Place visited</title>
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+    <div class="fullForm">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">List places visited</h1>
+                <p>The lists of place that you visited.</p>
+            </div>
+        </header>
+        
+        <form>
+            <button id="createId" type="button">Create</button>
+            <button id="closeId" type="button">Close</button>
+            <div class="container">
+                Place :<input type="text" id="place"></br>
+                <input type="radio" name="userSelect" id="localRadio" checked value="Local" />Local
+                <input type="radio" name="userSelect" id="abroadRadio" value="Abroad" />Abroad<br />
+
+                firstDate : <input type="date" id="firstDate"></br>
+
+                lastDate :<input type="date" id="lastDate"></br>
+
+                Money :<input type="text" id="price"></br>
+
+                Transport :<input type="text" id="transport"></br>
+                <button id="buttonCreate" type="button">Add</button>
+            </div>
+            <div class="add-card" >
+                <div class="1card">
+                    <div id="search-placeLocal">
+                        <P>local places</P>
+                        <input type="text" placeholder="Search local places..." id="local"/>
+                    </div>
+                    <div id="place-list1">
+                        <div class="card">
+                            <span class="cardName">kompong Thom</span>
+                            <span class="cardDate">2000/03/05</span>
+                            <span class="cardPrice">10$</span>
+                            <span class="cardTransport">motor</span>
+                            <span class="delete">x</span>
+                      
+                        </div>
+                        <div class="card">
+                            <span class="cardName">prey veng</span>
+                            <span class="cardDate">2000/07/11</span>
+                            <span class="cardPrice">10$</span>
+                            <span class="cardTransport">car</span>
+                            <span class="delete">x</span>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <div class="2card">
+                    <div id="search-placeAbroad">
+                        <P>Abroad places</P>
+                        <input type="text" placeholder="Search other cambodia..." id="abroad"/>
+                    </div>
+                    <div id="place-list2">
+                        <div class="card">
+                            <span class="cardName">USA</span>
+                            <span class="cardDate">2019/05/03</span>
+                            <span class="cardPrice">1000$</span>
+                            <span class="cardTransport">airplan</span>
+                            <span class="delete">x</span>
+                           
+                        </div>
+                        <div class="card">
+                            <span class="cardName">Thailand</span>
+                            <span class="cardDate">2018/05/03</span>
+                            <span class="cardPrice">500$</span>
+                            <span class="cardTransport">car</span>
+                            <span class="delete">x</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
